@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('lato-v14-latin-regular.woff2') format('woff2');
+  font-style: normal;
+}
+
+.devise-body-div {
+  display: block; 
+  align-items: center; 
+  height: 100vh; 
+  width: 100%; 
+  background-color: #F7F8FA;
+  font-family: 'Lato';
+}
+
+.devise-outer-container {
+  align-items: center; 
+  width: 100%; 
+  height:100%; 
+  box-sizing: border-box; 
+  margin: 0; 
+  display: -webkit-box; 
+  display: -webkit-flex; 
+  display: -ms-flexbox;
+  display: flex; 
+  ms-flex-align: center; 
+  line-height: 1.15;
+}
+
+.devise-form-panel {
+  width: 480px; 
+  border: 1; 
+  padding: 32px; 
+  border-radius: 10px; 
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.devise-form-panel label {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  display: block;
+}
+
+.devise-form-panel input {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #CED1DD;
+  background-color: transparent;
+  padding: 8px;
+  display: block;
+  box-sizing : border-box;
+}
+
+
+.devise-header {
+  color: #000000;
+  font-size: 30px;
+  font-family: Lato;
+}
+
+.devise-submit {
+  margin-bottom: 15px;
+  width: 100%;
+  border-color: #005FFE !important;
+  color: #FFFFFF !important;
+  background-color: #005FFE !important;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 32px;
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+}

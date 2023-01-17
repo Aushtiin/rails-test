@@ -1,0 +1,2 @@
+json.extract! key_activity, :id, :description, :position, :priority, :updated_at, :user_id, :completed_at, :created_at, :due_date, :personal, :scheduled_group_id
+json.user key_activity.user, partial: 'api/users/user', as: :user
